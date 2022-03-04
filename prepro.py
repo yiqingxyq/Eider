@@ -563,6 +563,9 @@ def read_docred(args, file_in, tokenizer, ablation=None, if_inference=True):
 
 
     if feature_path != '':
+        if not os.path.exists(feature_path):
+            os.makedirs(feature_path)
+            
         if not os.path.exists(feature_file):
             print('Saving to', feature_file)
             pickle.dump(features, open( feature_file, "wb") )

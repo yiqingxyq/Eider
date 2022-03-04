@@ -411,6 +411,10 @@ def main():
     args.n_gpu = torch.cuda.device_count()
     args.device = device
 
+    if args.save_path != "":
+        if not os.path.exists(args.save_path):
+            os.makedirs(args.save_path)
+
     config = AutoConfig.from_pretrained(
         args.config_name if args.config_name else args.model_name_or_path,
         num_labels=args.num_class,
