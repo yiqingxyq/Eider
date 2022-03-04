@@ -56,12 +56,11 @@ Eider
  If you make use of this code in your work, please kindly cite the following paper:
 ```
 @inproceedings{xie2021eider,
-      title={Eider: Evidence-enhanced Document-level Relation Extraction}, 
+      title={EIDER: Empowering Document-level Relation Extraction with Efficient Evidence Extraction and Inference-stage Fusion}, 
       author={Yiqing Xie and Jiaming Shen and Sha Li and Yuning Mao and Jiawei Han},
       year={2022},
-      selected={true},
       booktitle = {Findings of the 60th Annual Meeting of the Association for Computational Linguistics},
-      abbr={ACL Findings}
+      publisher = {Association for Computational Linguistics},
 }
 ```
  
