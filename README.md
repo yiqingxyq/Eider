@@ -2,7 +2,8 @@
 Code for ACL 2022 Finding paper "[EIDER: Empowering Document-level Relation Extraction with Efficient Evidence Extraction and Inference-stage Fusion](https://arxiv.org/abs/2106.08657)"
 
 ## Dataset
-The [DocRED](https://www.aclweb.org/anthology/P19-1074/) dataset can be downloaded following the instructions at [link](https://github.com/thunlp/DocRED/tree/master/data). 
+The [DocRED](https://www.aclweb.org/anthology/P19-1074/) dataset can be downloaded following the instructions at [link](https://drive.google.com/drive/folders/1owp7ZRbrMl_s1ljIh6AvnmniLJSliV6h?usp=sharing).
+Noted that the dev.json file has been modified in Aug, 2021. The modified version contains 998 documents. We use the original version of dev.json, which contains 1000 documents.
 
 The expected structure of files is:
 ```
