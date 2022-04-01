@@ -16,7 +16,7 @@ ensemble_mode=2
 # ensemble_ablation=evi_pred
 ensemble_ablation=evi_rule
 
-evi_eval_mode=pred_true
+evi_eval_mode=none
 
 echo ablation ${ablation}
 echo ensemble ${ensemble_mode}, ${ensemble_ablation}
